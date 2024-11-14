@@ -1,0 +1,201 @@
+body {
+    background: rgb(205, 232, 255);
+}
+
+header {
+    background-color: #6AD7FF;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+header li {
+    margin: 0 1em;
+}
+
+header img.logo {
+    width: 10%;
+    margin-left: -40px;
+}
+
+.uldalam {
+    margin-left: -500px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button {
+    color: bisque;
+    text-shadow: 2px 2px red;
+}
+
+.h1 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin-left: -500px;
+    color: bisque;
+    text-shadow: 2px 2px red;
+}
+
+div .anim1 {
+    width: 800%;
+    align-items: center;
+}
+
+div .anim2 {
+    width: 800%;
+    margin-top: -51px;
+    align-items: center;
+}
+
+div .anim3 {
+    width: 800%;
+    margin-top: -102px;
+    align-items: center;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(59, 59, 59);
+    text-align: center;
+}
+
+div .anim4 {
+    width: 800%;
+    margin-top: -152px;
+    align-items: center;
+}
+
+.poto1 {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 15s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+  
+@keyframes example {
+0%   {background-color:red; left:0px; top:0px;}
+25%  {background-color:blue; left:470px; top:0px;}
+50% {background-color:red; left:940px; top:0px;}
+}
+
+.poto2 {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 15s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+}
+
+.poto3 {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 15s;
+    animation-delay: 9s;
+    animation-iteration-count: infinite;
+}
+
+.poto4 {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 15s;
+    animation-delay: 13s;
+    animation-iteration-count: infinite;
+}
+
+.kotak1run {
+    width: 30%;
+    height: 30%;
+}
+
+.kotak2run {
+    width: 30%;
+    height: 30%;
+    padding-left: 470px;
+    margin-top: -250px;
+}
+
+.kotak3run {
+    width: 30%;
+    height: 30%;
+    padding-left: 935px;
+    margin-top: -270px;
+}
+
+.daftar {
+    background: bisque; 
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: bisque;
+    text-shadow: 2px 2px red;
+    text-align: center;
+}
+
+.percantik {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(15, 15, 15);
+    text-shadow: 2px 2px red;
+    text-align: center;
+}
+
+.footer {
+    background-color: #6AD7FF;
+}
+
+.ulfooter {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 350px;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+footer {
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.buttondaftar {
+    color: black;
+    text-decoration: none;
+}
+
+footer li {
+    margin: 0 1em;
+    height: 35px;
+}
+
+.kotakdaftar {
+    width: 30%;
+    height: 30%;
+}
